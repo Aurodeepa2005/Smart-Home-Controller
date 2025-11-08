@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Smart Home Controller</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🏠 IoT Smart Home Controller</h1>
+            <p>C++ OOP Concept Implementation | Device Management System</p>
+        </div>
+
+        <div class="control-panel">
+            <div class="add-device-section">
+                <h2>➕ Add New Device</h2>
+                <form class="device-form" id="addDeviceForm">
+                    <div class="form-group">
+                        <label>Device Name</label>
+                        <input type="text" id="deviceName" placeholder="e.g., Living Room Light" required>
+                    </div>
+                    <div class="form-group">
+                        <label>Device Type</label>
+                        <select id="deviceType" required>
+                            <option value="light">Light</option>
+                            <option value="fan">Fan</option>
+                            <option value="ac">Air Conditioner</option>
+                            <option value="thermostat">Thermostat</option>
+                            <option value="security">Security Camera</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>Connectivity</label>
+                        <select id="connectivity" required>
+                            <option value="online">Online</option>
+                            <option value="offline">Offline</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Add Device</button>
+                </form>
+            </div>
+
+            <h2 style="color: #667eea; margin-bottom: 15px;">📱 Connected Devices</h2>
+            <div class="devices-grid" id="devicesGrid">
+                <div class="empty-state">
+                    <h3>No devices added yet</h3>
+                    <p>Add your first smart device to get started!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="log-section">
+            <h2>📋 Activity Log</h2>
+            <div id="activityLog"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

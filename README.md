@@ -6,7 +6,7 @@ A fully functional IoT Smart Home Controller that demonstrates C++ Object-Orient
 
 ---
 ## Live Demo
-[![Live Demo](https://img.shields.io/badge/VIEW-LIVE-green?style=for-the-badge)]([https://aurodeepa2005.github.io/Smart-Home-Controller/])
+[![Live Demo](https://img.shields.io/badge/VIEW-LIVE-green?style=for-the-badge)](https://aurodeepa2005.github.io/Smart-Home-Controller/)
 
 
 ## 📁 Project Structure
